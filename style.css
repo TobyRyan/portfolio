@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  /* changing font size use ems which is a percentage of the font */
+  font-size: 1.25em;
+}
+header {
+  /* how do we make the height specific to devices */
+  min-height:100vh;
+  background-image: url("https://thewallpaper.co/wp-content/uploads/2016/10/New-york-wallpaper-hd-hd-wallpapers-amazing-cool-desktop-wallpapers-for-windows-apple-mac-tablet-download-1920x1080.jpg");
+ 
+}
+nav {
+  background-color:#0d3d6d;
+  position: fixed;
+  width: 100%;
+
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border: 1px green solid;
+  padding: .25em;
+  
+}
+nav a:hover {
+  color: yellow;
+  text-decoration: none;
+  border: 1px yellow solid;
+}
+nav li {
+  display: inline-block;
+  padding:  1em;
+}
+nav ul {
+  margin:0;
+}
+header main {
+  padding-top: 3em;
+  text-align:center;
+  font-size: 1.25em;
+}
+
+header main p{
+  border: #66d6ff;
+  color: white;
+}
+h1  {
+  /* if you wanted to change case */
+  /* text-transform: uppercase; */
+  font-size:2.0em;
+  letter-spacing: 0.5em;
+  /* text-shadow: 0 1px grey; */
+}
+header img{
+  /* padding: 1em; */
+  width: 20%;
+  border-radius: 20%;
+  border: 1px red solid;
+}
+.about-me {
+  padding: 3em 1em;
+  line-height: 1.25;
+  background-color:#0d3d6d ;
+  color: white;
+  background image: url("http://www.gidsmail.info/wp-content/uploads/cool-twitter-banners-pin-by-ashtyn-barr-on-twitter-headers-pinterest-header-and.jpg")
+  
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects{
+  color: white;
+  padding: 3em 0;
+  background-color: #0d3d6d;
+  background-image: url("https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&h=350");
+  
+}
+
+.projects img {
+  width:30%;
+  padding: 30px 30px 30px 0;
+}
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
+}
